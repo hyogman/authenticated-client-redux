@@ -4,7 +4,7 @@ import { Link } from 'react-router';
 
 class Header extends Component {
     renderLinks() {
-      console.log(this.props.authenticated);
+    
       if(this.props.authenticated) {
         // show a link to sign out
         return (
